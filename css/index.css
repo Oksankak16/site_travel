@@ -9,7 +9,7 @@ body {
     background-image: url(../images/fontbody2.jpg);
 }
 
-header nav .menu {
+/* header nav .menu {
     display: flex;
     list-style-type: none;
     justify-content: flex-start;
@@ -27,27 +27,27 @@ header nav .menu li a {
     background-color: #424242;
     /* height: 50px; */
     /* font-size: 16px; */
-}
+/* } */
 
-header nav .menu li a:hover {
+/* header nav .menu li a:hover {
     background-color: black;
     border: 1px solid white;
-}
+} */
 
-header nav div {
+/* header nav div {
     height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     margin-top: 5px;
-}
+} */
 
-header nav div h1 {
+/* header nav div h1 {
     margin: 0 auto;
-}
+} */
 
-header nav div h2 {
+/* header nav div h2 {
     color: white;
     background-color: grey;
     border-radius: 8px;
@@ -58,30 +58,30 @@ header nav div h2 {
 
 header nav div h1+h2 {
     margin-left: 100px;
-}
+} */
 
-.logo {
+/* .logo { */
     /* margin: 100px; */
-}
+/* } */
 
 /* create .slider */
 @media (min-width: 550px) {
-    header nav div {
+    /* header nav div {
         margin: 0;
         display: flex;
         flex-direction: column;
         height: 100px;
-    }
+    } */
 
-    header nav .menu li a {
-        display: flex;
+    /* header nav .menu li a {
+        display: flex; */
         /* flex: 1; */
-        justify-content: flex-start;
+        /* justify-content: flex-start;
         font-size: 24px;
-        padding: 10px 20px;
+        padding: 10px 20px; */
         /* flex-wrap: wrap; */
         /* margin: 0; */
-    }
+    /* } */
 }
 
 /* @media (min-width: 700px) {
@@ -170,7 +170,7 @@ button:hover {
     background-color: rgb(14, 48, 44);
 }
 
-#clock {
+/* #clock {
     width: 140px;
     height: 60px;
     font-size: 30px;
@@ -179,8 +179,8 @@ button:hover {
     border: 5px solid #1A9B8D;
     background-color: #486464;
     color: white;
-    border-radius: 5px;
-}
+    border-radius: 5px; */
+/* } */
 #simple-vertical {
   width: 100%;
   color: #FFF;
@@ -202,3 +202,7 @@ figure {
 /* бургер меню попробувати, вертикальний слайдер,
 футер трохи поміняти, адаптувати, кнопка пошуку, картинки 1-го слайдера поміняти */
 /* bootstrap */
+/* menu */
+.container{
+    width: 100%;
+}
