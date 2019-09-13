@@ -14,6 +14,7 @@ main article p {
     color: white;
     text-align: justify;
     font-size: 18px;
+    /* width:100%; */
 }
 
 main article p strong {
@@ -141,7 +142,8 @@ aside a:hover {
     }
 
     aside a img {
-        height: 100%;
+        height: 100px;
+        width: 150px;
     }
 }
 
@@ -152,5 +154,15 @@ aside a:hover {
 .nav-item:hover {
     background-color: rgba(17, 131, 32);
     border: 1px solid white;
-    padding: 0px
+    padding: 0px;
 }
+.col-12 {
+    -ms-flex:0 0 100%;
+    flex:50% 20% 30%;
+    max-width: 80%;
+}
+/* .col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 50%;
+} */
