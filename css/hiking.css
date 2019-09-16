@@ -1,0 +1,16 @@
+#products{
+    margin-top:10px;
+}
+/* .card{
+    margin: 5px;
+} */
+.row{
+    margin:0;
+
+}
+#forHike{
+    display: none;
+}
+#forHike:hover{
+    display:initial;
+}
