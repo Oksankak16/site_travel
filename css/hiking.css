@@ -9,8 +9,28 @@
 
 }
 #forHike{
-    display: none;
+    /* visibility: hidden; */
+    text-align: justify;
 }
-#forHike:hover{
-    display:initial;
+/* #forHike:hover{
+    visibility: visible;
+} */
+#obtic2{
+    margin-left: 10px;
+    float: right;
+    width: 50%;
+}
+#obtic1{
+    margin-right: 25px;
+    float: left;
+    width: 50%;
+}
+#obtic3{
+    margin-right: 10px;
+    float: left;
+    width: 50%;
+}
+#map{
+     width:100%;
+     height: 400px;
 }

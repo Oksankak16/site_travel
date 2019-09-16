@@ -1,0 +1,19 @@
+article img:nth-child(1){
+    float: right;
+    width: 50%;
+}
+.image_blog{
+    float: left;
+    width: 50%;
+    margin-right: 10px;
+    border: 5px solid white;
+}
+.image_blog2{
+    float: right;
+    width: 50%;
+    margin-left:10px;
+    border: 5px solid white;
+}
+#blog{
+    text-align: justify;
+}
