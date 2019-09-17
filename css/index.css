@@ -128,25 +128,6 @@ aside a:hover {
     text-decoration: none;
     color: white;
 }
-
-@media(max-width: 576px) {
-    /* .list-unstyled {
-        display: flex;
-        flex-direction: row;
-        align-content: space-around;
-        /* margin: 0; */
-    /* } */
-
-    /* .media {
-        margin-right: 10px;
-    } */
-
-  /* aside a img {
-        height: 100px;
-        width: 100%;
-    } */
-}
-
 .nav-item {
     border: 1px solid transparent;
 }

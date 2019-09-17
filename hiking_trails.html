@@ -83,7 +83,7 @@
         <main>
         <div class="row">
             <div class="card col-12 col-sm-6 col-md-4">
-                <img src="images/homjak.png" class="card-img-top" alt="Tesla Model S">
+                <img src="images/homjak.png" class="card-img-top" alt="Гора Хом’як">
                 <div class="card-body">
                     <h5 class="card-title">Гора Хом'як</h5>
                     <p class="card-text"><strong>Дистанція та складність:</strong>
@@ -95,7 +95,7 @@
                     <strong>Локація:</strong>
                     Ґорґанські гори
 </p>
-                    <a href="#forHike" class="btn btn-primary" data-toggle="modal" data-target="#productInfo">Деталі</a>
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#productInfo">Деталі</a>
                 </div>
             </div>
             <div class="card col-12 col-sm-6 col-md-4">
@@ -107,7 +107,7 @@
 <strong>Час проходження:</strong> 7 годин, одноденний <br>
 <strong>Локація:</strong> хребет Ліснівський
 </p>
-                    <a href="#" class="btn btn-primary">Деталі</a>
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#productInfo">Деталі</a>
                 </div>
             </div>
             <div class="card col-12 col-sm-6 col-md-4">
@@ -118,7 +118,7 @@
                     <br>
                     <strong>Час проходження:</strong> 8 годин, одноденний
 <strong>Локація:</strong> Ґорґанський масив
-</p><a href="#" class="btn btn-primary">Деталі</a>
+</p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#productInfo">Деталі</a>
           </div>
             </div>
             <div class="card col-12 col-sm-6 col-md-4">
@@ -130,7 +130,7 @@
 <strong>Час проходження:</strong> 1-2 дні <br>
 <strong>Локація:</strong> хребет Явірник, Ґорґанські гори
 <p>
-              <a href="#" class="btn btn-primary">Деталі</a>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#productInfo">Деталі</a>
                 </div>
             </div>
             <div class="card col-12 col-sm-6 col-md-4">
@@ -157,13 +157,22 @@
 <strong>Час проходження:</strong> 7 годин, одноденний <br>
 <strong>Локація:</strong> хребет Ліснівський
 </p>
-                    <a href="#" class="btn btn-primary">Деталі</a>
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#productInfo">Деталі</a>
                 </div>
             </div>
         </div>
     </main>
-                    <div id="forHike">
-                    <p>
+                    <div class="modal fade" id="productInfo" tabindex="-1" role="dialog" aria-labelledby="productInfoTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="productInfoTitle">Опис</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <p class="card-text">
                         <strong>Гора Хом’як</strong> — одна з типових локацій для нескладного одноденного маршруту. Щоб краще пояснити, наскільки нескладно підійматись на Хом’як теплої пори року, скажемо так: на нього підіймаються сім’ї з малолітніми дітьми, а попід вершиною, на полонині Хом’яків, часто-густо стоять намети тих, хто виліз трохи повище для святкування днів народжень чи будь-яких календарних свят.
 
 <img id="obtic1" src="images/chomyak4.jpg" alt="Зимові гори">
@@ -224,13 +233,19 @@
 Відправлення автобусів відбувається кожні півгодини, якщо навіть не частіше. Зауважте, з АС-1 відправляються обласні маршрутки, а з АС-2 — міжобласні, які теж йдуть у потрібному вам напрямку.
 <h3>
 Маршрут на гору Хом’як</h3>
-</p>
 <iframe id="map" frameBorder="0" scrolling="no" src="https://www.wikiloc.com/wikiloc/spatialArtifacts.do?event=view&id=5943903&measures=off&title=off&near=off&images=off&maptype=H"></iframe>
-                    </div>
+</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+        </div>
+        </div>
+    </div>
+    </div>
 <div class="row no-gutters">
     <div class="col-12 col-md-4 col-sm-4">
         <aside>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled" id="vertical">
                 <li class="media my-4">
                     <a href="https://www.karpaty.info/ua/info/useful/telephone/">
                         <img src="images/save.jpg" class="mr-3" alt="рятувальник" height="150">
