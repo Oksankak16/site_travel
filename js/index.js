@@ -22,5 +22,13 @@ $('.carousel').carousel({
   interval: 2000
 });
 document.addEventListener('mouseover', function(){
- document.getElementById('logos').style.backgroundColor='green';
+ document.getElementById('logos').style.backgroundColor='seagreen';
+ document.getElementById('logos').style.borderRadius='25px';
 });
+// let mobile = document.querySelector('callMe');
+// document.addEventListener('mouseover', function(){
+// document.getElementById('callMe').innerHTML="Передзвони мені";
+// });
+// document.addEventListener('mouseleave', function(){
+// document.getElementById('callMe').innerHTML="";
+// });
