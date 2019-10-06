@@ -14,7 +14,6 @@ main article p {
     color: white;
     text-align: justify;
     font-size: 18px;
-    /* width:100%; */
 }
 
 main article p strong {
@@ -24,20 +23,17 @@ main article p strong {
 footer {
     display: flex;
     margin-top: 50px;
+    margin-bottom: 50px;
     flex-direction: column-reverse;
 }
 
 dialog {
-    /* margin-left: 400px; */
-    /* /* margin-top20 -80 */
     border: 2px solid #2D9E9E;
     background-color: #486464;
     border-radius: 5px;
-}
-
-form {
-    /* margin: 0; */
-    /* color:#2D9E9E; */
+    font-size: 10px;
+    margin-top: -50px;
+    margin-left: -50px;
 }
 
 button {
@@ -66,7 +62,6 @@ figure {
     border: 5px solid #1A9B8D;
     background-color: #486464;
     color: white;
-    /* height: 150px; */
     margin-left: 250px;
 }
 
@@ -74,9 +69,6 @@ figure {
     width: 100px;
 }
 
-/* бургер меню попробувати, вертикальний слайдер,
-футер трохи поміняти, адаптувати, кнопка пошуку, картинки 1-го слайдера поміняти */
-/* bootstrap */
 .bg-light {
     background-color: #2e9475!important;
 }
@@ -103,7 +95,7 @@ main {
 }
 
 .list-unstyled {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .media {
@@ -118,6 +110,7 @@ main {
 
 aside a img {
     width: 100%;
+    height: 100%;
 }
 
 aside a {
@@ -129,25 +122,6 @@ aside a:hover {
     color: white;
 }
 
-@media(max-width: 576px) {
-    .list-unstyled {
-        display: flex;
-        flex-direction: row;
-        align-content: space-around;
-        /* margin: 0; */
-    }
-
-    .media {
-        margin-right: 20px;
-    }
-
-    aside a img {
-        height: 100px;
-        /* width: 150px; */
-        width: 100%;
-    }
-}
-
 .nav-item {
     border: 1px solid transparent;
 }
@@ -156,4 +130,10 @@ aside a:hover {
     background-color: rgba(17, 131, 32);
     border: 1px solid white;
     padding: 0px;
+}
+
+#close {
+    font-size: 11px;
+    height: 20px;
+    margin-left: 150px;
 }
