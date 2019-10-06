@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // // create slider
 // let slides = document.querySelectorAll('#slides .slide');
 // let currentSlide = 0;
@@ -14,8 +13,6 @@ const clock = document.querySelector('#clock');
 setInterval(()=>clock.innerText = (new Date()).toLocaleDateString(), 1000);
 
 // dialog
-=======
->>>>>>> 56897576b6f564d391f926a7b39e93038bf21f59
 let dialog = document.querySelector('dialog');
 document.querySelector('#show').addEventListener('click', ()=>dialog.show());
 document.querySelector('#close').onclick = function() {
