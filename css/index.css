@@ -9,7 +9,13 @@ body {
     background-image: url(../images/fontbody2.jpg);
     font-family: 'Chilanka', cursive;
 }
+#clock{
+    float: right;
+    border: 2px solid seagreen;
+    color: white;
+    background-color:#2D9E9E;;
 
+}
 main article p {
     color: white;
     text-align: justify;

@@ -9,8 +9,8 @@
 //     slides[currentSlide].className = 'slide showing';
 // }
 // create clock
-// const clock = document.querySelector('#clock');
-// setInterval(()=>clock.innerText = (new Date()).toLocaleString(), 1000);
+const clock = document.querySelector('#clock');
+setInterval(()=>clock.innerText = (new Date()).toLocaleDateString(), 1000);
 
 // dialog
 let dialog = document.querySelector('dialog');
@@ -21,4 +21,7 @@ document.querySelector('#close').onclick = function() {
 //slider
 $('.carousel').carousel({
   interval: 2000
-})
+});
+document.addEventListener('mouseover', function(){
+ document.getElementById('logos').style.backgroundColor='green';
+});
